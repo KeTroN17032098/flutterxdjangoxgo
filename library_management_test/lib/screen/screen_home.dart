@@ -28,10 +28,9 @@ class _HomeScreenState extends State<Homescreen> {
                   width: width * 0.8, height: height * 0.2),
             ),
             Padding(padding: EdgeInsets.all(width * 0.024)),
-            Text(
-              '수정도서관 전자정보실 매니지먼트 웹 앱입니다.',
-              textAlign: TextAlign.center,
-            ),
+            Text('수정도서관 전자정보실 매니지먼트 웹 앱입니다.',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: width * 0.04)),
             Padding(
               padding: EdgeInsets.all(width * 0.012),
             ),
